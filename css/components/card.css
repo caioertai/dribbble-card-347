@@ -1,0 +1,37 @@
+/* TODO: CARD; */
+.card-wrapper {
+  width: 320px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 2px;
+  border-color: #ececec;
+  border-width: 1px;
+  border-style: solid;
+}
+.card-info {
+  color:#aaa;
+}
+.card-image {
+  width: 100%;
+}
+.card-footer{
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+.card-image-frame {
+  position: relative;
+}
+.card-image-frame .button {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.card:hover .button {
+  opacity: 1;
+}
